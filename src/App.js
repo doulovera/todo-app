@@ -89,10 +89,12 @@ function App() {
       </div>
 
       { showCompleted && (
+        <>
+        <hr className="vov fade-in-left fast" style={{width: '50%', margin: '3em auto'}} />
         <div className="vov fade-in-up fast">
-          <hr style={{width: '50%', margin: '3em auto'}} />
           {taskRows(true)}
         </div>
+        </>
       )}
 
     </div>

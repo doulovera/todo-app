@@ -21,6 +21,7 @@ function NavTitle(props) {
         
         if(data != null) {
             setUsername(data)
+            document.title = data.toUpperCase() + "'s To-Dos"
         } else {
             setUsername('josefina')
         }
