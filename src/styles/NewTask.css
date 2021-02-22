@@ -1,0 +1,32 @@
+.NewTask {
+    padding: 5px;
+}
+
+.NewTask input {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.NewTask input[type="text"] {
+    background-color: #fff;
+    width: 25%;
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: 2px solid gray;
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 768px) {
+    .NewTask input[type="text"] {
+        width: 60%;
+    }
+}
+
+.NewTask input[type="text"]:focus {
+    border: 2px solid #8eced1;
+}
+
+.NewTask input[type="submit"] {
+    display:none;
+}
